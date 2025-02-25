@@ -1,4 +1,10 @@
 # 📌 Tugas Praktik Io
+```cpp
+Name : Ananda Setiawati Abidin
+NIM : 233140707111122
+Information Technology 
+University of Brawijaya 
+``` 
 
 ## 🚦Traffic Light Simulation with ESP32
 
@@ -54,7 +60,7 @@ void loop() {
   delay(20000);
   digitalWrite(Hijau_LED, LOW);
 }
-
+```
 
 ## 🚀 How to Run in Wokwi
 1. Open Wokwi ESP32 Simulator
