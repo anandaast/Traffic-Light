@@ -2,8 +2,13 @@
 
 ## 🚦Traffic Light Simulation with ESP32
 
-This project simulates a traffic light system using an ESP32 and the Wokwi Simulator. The simulation displays red, yellow, and green LEDs that turn on sequentially, following Indonesian traffic light regulations.
+This project simulates a traffic light system using an ESP32 and the Wokwi Simulator. 
+The simulation displays red, yellow, and green LEDs that turn on sequentially, following Indonesian traffic light regulations.
 
+```cpp
+Ananda Setiawati Abidin
+233140707111122
+T4J
 
 ## 🔧 Features  
 ✅ Uses ESP32 as the main microcontroller 
@@ -55,6 +60,7 @@ void loop() {
   digitalWrite(Hijau_LED, LOW);
 }
 
+
 ## 🚀 How to Run in Wokwi
 1. Open Wokwi ESP32 Simulator
 2. Create a new project and select ESP32
@@ -62,6 +68,8 @@ void loop() {
 4. Copy and paste the C++ code into main.cpp
 5. Click the RUN ▶️ button to start the simulation 
 
+
 ## 📌 Conclusion
 
-This project demonstrates how to simulate a traffic light system using ESP32 without physical hardware. Thanks to the Wokwi Simulator, we can visualize how red, yellow, and green lights operate in a traffic system interactively! 🚦 
+This project demonstrates how to simulate a traffic light system using ESP32 without physical hardware.
+Thanks to the Wokwi Simulator, we can visualize how red, yellow, and green lights operate in a traffic system interactively! 🚦 
