@@ -6,9 +6,9 @@ This project simulates a traffic light system using an ESP32 and the Wokwi Simul
 
 
 ## 🔧 Features  
-✅ Uses ESP32 as the main microcontroller
-✅ Three LEDs representing traffic lights (Red, Yellow, Green)
-✅ Runs on Wokwi Simulator without physical hardware
+✅ Uses ESP32 as the main microcontroller 
+✅ Three LEDs representing traffic lights (Red, Yellow, Green) 
+✅ Runs on Wokwi Simulator without physical hardware 
 ✅ Light durations follow standard traffic light rules
 
 ## 🖥️ Wokwi Diagram
@@ -21,6 +21,7 @@ Below is the circuit diagram in JSON format, ready to use in Wokwi Simulator.
 4. The cycle repeats infinitely ♻️
 
 ## 📜 ESP32 Code 
+```cpp
 #include <Arduino.h>
 
 int Merah_LED = 21;  
@@ -63,4 +64,4 @@ void loop() {
 
 ## 📌 Conclusion
 
-This project demonstrates how to simulate a traffic light system using ESP32 without physical hardware. Thanks to the Wokwi Simulator, we can visualize how red, yellow, and green lights operate in a traffic system interactively! 🚦
+This project demonstrates how to simulate a traffic light system using ESP32 without physical hardware. Thanks to the Wokwi Simulator, we can visualize how red, yellow, and green lights operate in a traffic system interactively! 🚦 
