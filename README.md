@@ -5,11 +5,6 @@
 This project simulates a traffic light system using an ESP32 and the Wokwi Simulator. 
 The simulation displays red, yellow, and green LEDs that turn on sequentially, following Indonesian traffic light regulations.
 
-```cpp
-Ananda Setiawati Abidin
-233140707111122
-T4J
-
 ## 🔧 Features  
 ✅ Uses ESP32 as the main microcontroller 
 ✅ Three LEDs representing traffic lights (Red, Yellow, Green) 
